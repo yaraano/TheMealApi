@@ -18,24 +18,9 @@ code {
   margin: 0;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 15px;
-}
-
-.container  {
-  max-width: 1300px;
-  margin: 0 auto;
-}
-
-.col-4 {
-  width: 33.33%;
-  padding: 15px;
-}
-
 img {
   width: 100%;
+  border-radius: 20px;
 }
 
 .header a {
@@ -51,10 +36,6 @@ img {
   flex-direction: column;
 }
 
-.col-6 {
-  width: 50%;
-  padding: 15px;
-}
 
 .header-box {
   margin-top: 20px;
@@ -67,5 +48,36 @@ h4 {
   justify-content: center;
 }
 .inner-wrapper {
-  margin-top: 15px;
+  margin-top: 30px;
+}
+
+.ingredient {
+  text-align: center;
+}
+
+.box-ingredient {
+  padding: 15px;
+}
+
+a {
+  text-decoration: unset;
+  color: black;
+}
+
+a:hover {
+  text-decoration: unset;
+  color: black;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.btn-search {
+  border: 1px black solid;
+  padding: 0 10px;
+}
+
+.input {
+  height: 100%;
 }

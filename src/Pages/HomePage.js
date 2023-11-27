@@ -14,14 +14,12 @@ const HomePage = () => {
     }, [])
 
     return (
-        <>
             <div className={'container'}>
                 <div className={'header'}>
                     <Header/>
                 </div>
                 <MealList meals={meals}/>
             </div>
-        </>
     )
 }
 
